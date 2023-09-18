@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Dashboard from "./pages/Dashboard"
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import PrivateRoute from "./components/PrivateRoute";
 
 
@@ -15,7 +15,7 @@ function App() {
  
 
   return (
-    <div className="w-screen h-screen bg-richblack-900 flex flex-col">
+    <div className="w-screen h-screen bg-black flex flex-col">
       <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
 
       <Routes>
