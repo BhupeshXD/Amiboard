@@ -1,7 +1,7 @@
 import React from 'react'
 import SignupForm from './SignupForm'
 import frameImage from '../assets/frame.png'
-import image from '../assets/signup.png'
+import image from '../assets/bike.jpg'
 import LoginForm from './LoginForm'
 import {FcGoogle} from "react-icons/fc"
 
